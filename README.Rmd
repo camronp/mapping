@@ -27,5 +27,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Usage
 
-## Load Package
-libraries...
+## Load Packages
+
+library(tidyverse)
+library(janitor)
+library(readxl)
+library(ggrepel)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+#library(rnaturalearthhires) #devtools::install_github("ropensci/rnaturalearthhires") needed for French Guiana
+library(ggspatial)
+library(scales)
+library(ggforce)
+library(gridExtra)
